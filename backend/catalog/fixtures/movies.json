@@ -1,0 +1,116 @@
+﻿[
+{
+  "model": "catalog.movie",
+  "pk": 1,
+  "fields": {
+    "title": "Inception",
+    "description": "A skilled thief who steals secrets through dreams.",
+    "genre": "Sci-Fi, Thriller",
+    "content_type": "movie",
+    "release_year": 2010,
+    "rating": "8.8",
+    "duration": "2h 28m",
+    "director": "Christopher Nolan",
+    "cast": "Leonardo DiCaprio, Joseph Gordon-Levitt",
+    "poster_url": "https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg",
+    "banner_url": "https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg",
+    "trailer_url": "https://www.youtube.com/embed/YoHD9XEInc0",
+    "created_at": "2026-09-24T06:45:51.632Z"
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 2,
+  "fields": {
+    "title": "Interstellar",
+    "description": "Explorers travel through a wormhole in search of a new home.",
+    "genre": "Sci-Fi, Drama",
+    "content_type": "movie",
+    "release_year": 2014,
+    "rating": "8.7",
+    "duration": "2h 49m",
+    "director": "Christopher Nolan",
+    "cast": "Matthew McConaughey, Anne Hathaway",
+    "poster_url": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+    "banner_url": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+    "trailer_url": "https://www.youtube.com/embed/zSWdZVtXT7E",
+    "created_at": "2026-09-24T06:45:51.639Z"
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 3,
+  "fields": {
+    "title": "The Dark Knight",
+    "description": "Batman faces a criminal mastermind who creates chaos across Gotham.",
+    "genre": "Action, Crime",
+    "content_type": "movie",
+    "release_year": 2008,
+    "rating": "9.0",
+    "duration": "2h 32m",
+    "director": "Christopher Nolan",
+    "cast": "Christian Bale, Heath Ledger",
+    "poster_url": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    "banner_url": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    "trailer_url": "https://www.youtube.com/embed/EXeTwQWrcwY",
+    "created_at": "2026-09-24T06:45:51.644Z"
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 4,
+  "fields": {
+    "title": "Stranger Things",
+    "description": "Friends uncover mysterious events and supernatural secrets.",
+    "genre": "Drama, Mystery",
+    "content_type": "series",
+    "release_year": 2016,
+    "rating": "8.6",
+    "duration": "4 Seasons",
+    "director": "The Duffer Brothers",
+    "cast": "Millie Bobby Brown, Finn Wolfhard",
+    "poster_url": "https://image.tmdb.org/t/p/w500/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg",
+    "banner_url": "https://image.tmdb.org/t/p/w500/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg",
+    "trailer_url": "https://www.youtube.com/embed/b9EkMc79ZSU",
+    "created_at": "2026-09-24T06:45:51.650Z"
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 5,
+  "fields": {
+    "title": "Dune",
+    "description": "A young heir must protect his family on a dangerous desert planet.",
+    "genre": "Sci-Fi, Adventure",
+    "content_type": "movie",
+    "release_year": 2021,
+    "rating": "8.0",
+    "duration": "2h 35m",
+    "director": "Denis Villeneuve",
+    "cast": "Timothee Chalamet, Rebecca Ferguson",
+    "poster_url": "https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg",
+    "banner_url": "https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg",
+    "trailer_url": "https://www.youtube.com/embed/8g18jFHCLXk",
+    "created_at": "2026-09-24T06:45:51.655Z"
+  }
+},
+{
+  "model": "catalog.movie",
+  "pk": 6,
+  "fields": {
+    "title": "Wednesday",
+    "description": "A mysterious student investigates strange events at a unique academy.",
+    "genre": "Comedy, Mystery",
+    "content_type": "series",
+    "release_year": 2022,
+    "rating": "8.0",
+    "duration": "1 Season",
+    "director": "Alfred Gough, Miles Millar",
+    "cast": "Jenna Ortega, Catherine Zeta-Jones",
+    "poster_url": "https://image.tmdb.org/t/p/w500/9PFonBhy4cQy7Jz20NpMygczOkv.jpg",
+    "banner_url": "https://image.tmdb.org/t/p/w500/9PFonBhy4cQy7Jz20NpMygczOkv.jpg",
+    "trailer_url": "https://www.youtube.com/embed/Di310WS8zLk",
+    "created_at": "2026-09-24T06:45:51.660Z"
+  }
+}
+]

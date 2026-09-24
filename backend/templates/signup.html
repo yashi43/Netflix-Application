@@ -1,0 +1,161 @@
+{% extends "base.html" %}
+
+{% block title %}Sign Up | Netflix{% endblock %}
+
+{% block extra_css %}
+<style>
+    .auth-container {
+        max-width: 450px;
+        margin: 50px auto;
+        background: #15151c;
+        padding: 40px;
+        border-radius: 12px;
+    }
+
+    .auth-container h1 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+
+    .form-group {
+        margin-bottom: 18px;
+    }
+
+    .form-group label {
+        display: block;
+        margin-bottom: 8px;
+        color: #ccc;
+    }
+
+    .form-group input {
+        width: 100%;
+        padding: 13px;
+        background: #0b0b0f;
+        border: 1px solid #333;
+        border-radius: 6px;
+        color: white;
+        font-size: 15px;
+    }
+
+    .form-group input:focus {
+        outline: none;
+        border-color: #e50914;
+    }
+
+    .signup-btn {
+        width: 100%;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .login-link {
+        text-align: center;
+        margin-top: 20px;
+        color: #999;
+    }
+
+    .login-link a {
+        color: #e50914;
+        font-weight: bold;
+    }
+
+    .error {
+        background: #3a1518;
+        color: #ff7777;
+        padding: 12px;
+        border-radius: 6px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+</style>
+{% endblock %}
+
+
+{% block content %}
+
+<div class="auth-container">
+
+    <h1>Create Account</h1>
+
+    {% if error %}
+        <div class="error">
+            {{ error }}
+        </div>
+    {% endif %}
+
+    <form method="POST">
+
+        {% csrf_token %}
+
+        <div class="form-group">
+            <label for="username">Username</label>
+
+            <input
+                type="text"
+                id="username"
+                name="username"
+                placeholder="Choose a username"
+                required
+            >
+        </div>
+
+
+        <div class="form-group">
+            <label for="email">Email</label>
+
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+            >
+        </div>
+
+
+        <div class="form-group">
+            <label for="password">Password</label>
+
+            <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Create a password"
+                required
+            >
+        </div>
+
+
+        <div class="form-group">
+            <label for="confirm_password">
+                Confirm Password
+            </label>
+
+            <input
+                type="password"
+                id="confirm_password"
+                name="confirm_password"
+                placeholder="Confirm your password"
+                required
+            >
+        </div>
+
+
+        <button type="submit" class="btn signup-btn">
+            Create Account
+        </button>
+
+    </form>
+
+
+    <div class="login-link">
+        Already have an account?
+        <a href="{% url 'login' %}">Login</a>
+    </div>
+
+</div>
+
+{% endblock %}
